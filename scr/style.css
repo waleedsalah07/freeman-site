@@ -114,11 +114,10 @@ margin: 10px;
 .sec2{
 padding: 10px;
 /* border: 1px solid chocolate; */
-background-color: white;
+background: white;
 box-sizing: border-box;
 box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
 margin-bottom: 70px;
-width: 73%;
 
 }
 
@@ -170,10 +169,13 @@ width: 100%;
     font-size:50px;
 }
 .services{
-width: 78%;
-/* border: 1px solid; */
-}
 
+display: flex;
+
+}
+.ser-one{
+    flex-grow: 1;
+}
 .servicee{
     position: relative;
     margin: 15px 0;
@@ -257,7 +259,6 @@ align-items: center;
     text-align: center;
 }
 .sec4{
-    width: 100%;
   min-height: 700px;
     display: flex;
     align-items: center;
@@ -271,7 +272,7 @@ align-items: center;
 }
 .PORTFOLIO{
     position: relative;
- margin-top: 70px;
+   margin-top: 70px;
 }
 .PORTFOLIO > p::after{
     content: '';
@@ -373,7 +374,7 @@ height: 40px;
     background-image: url("../public/images/WhatsApp\ Image\ 2023-02-10\ at\ 10.13.46\ PM.jpeg");
     background-attachment: fixed;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     min-height: 600px;
     z-index: 2;
 }
